@@ -1,0 +1,7 @@
+Watching for file changes with StatReloader
+[25/Nov/2026 05:43:46] "GET / HTTP/1.1" 200 2679
+[25/Nov/2026 05:43:46] "GET /static/style.css HTTP/1.1" 304 0
+[25/Nov/2026 05:43:46] "GET /static/bootstrap.min.css HTTP/1.1" 304 0
+[25/Nov/2026 05:43:46] "GET /static/car_dealership.jpg HTTP/1.1" 304 0
+Not Found: /dealers
+[25/Nov/2026 05:43:49] "GET /dealers HTTP/1.1" 404 2966
