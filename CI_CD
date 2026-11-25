@@ -1,0 +1,37 @@
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   server/djangoapp/microservices/app.py
+	modified:   server/djangoapp/urls.py
+	modified:   server/djangoapp/views.py
+	modified:   server/frontend/package-lock.json
+	modified:   server/frontend/package.json
+	modified:   server/frontend/src/App.js
+	modified:   server/frontend/static/Home.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	CI_CD
+	server/analyzereview
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+$ ls -la
+total 48
+drwxr-sr-x 5 theia users  4096 Nov 25 04:17 .
+drwxrwsrwx 5 root  users  4096 Nov 25 00:53 ..
+drwxr-sr-x 8 theia users  4096 Nov 25 04:17 .git
+drwxr-sr-x 3 theia users  4096 Nov 25 04:09 .github
+-rw-r--r-- 1 theia users  1799 Nov 24 23:45 .gitignore
+-rw-r--r-- 1 theia users   731 Nov 25 04:17 CI_CD
+-rw-r--r-- 1 theia users 11358 Nov 24 23:45 LICENSE
+-rw-r--r-- 1 theia users    57 Nov 25 01:20 README.md
+-rw-r--r-- 1 theia users   372 Nov 25 01:20 django_server
+drwxr-sr-x 6 theia users  4096 Nov 25 03:32 server
+
+$ echo "GitHub Actions workflow completed successfully."
+GitHub Actions workflow completed successfully.
