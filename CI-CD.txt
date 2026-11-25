@@ -1,0 +1,141 @@
+2026-11-25T09:13:14.8127880Z Current runner version: '2.338.2'
+2026-11-25T09:13:14.8148631Z ##[group]Runner Image Provisioner
+2026-11-25T09:13:14.8149335Z Hosted Compute Agent
+2026-11-25T09:13:14.8149949Z Version: 20261111.635
+2026-11-25T09:13:14.8150544Z Commit: b8a594ea514ff44cadb5342986c68b1eac6e22ed
+2026-11-25T09:13:14.8151248Z Build Date: 2026-11-11T01:49:01Z
+2026-11-25T09:13:14.8151852Z Worker ID: {a47a07bb-affb-4996-9f2b-c70066bb129a}
+2026-11-25T09:13:14.8152451Z Region: westus2
+2026-11-25T09:13:14.8152906Z Cloud: Azure
+2026-11-25T09:13:14.8153400Z ##[endgroup]
+2026-11-25T09:13:14.8154530Z ##[group]Operating System
+2026-11-25T09:13:14.8155072Z Ubuntu
+2026-11-25T09:13:14.8155510Z 26.04.1
+2026-11-25T09:13:14.8155926Z LTS
+2026-11-25T09:13:14.8156418Z ##[endgroup]
+2026-11-25T09:13:14.8156914Z ##[group]Runner Image
+2026-11-25T09:13:14.8157465Z Image: ubuntu-26.04
+2026-11-25T09:13:14.8157944Z Version: 20261116.202.1
+2026-11-25T09:13:14.8159019Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261116.202/images/ubuntu/Ubuntu2604-Readme.md
+2026-11-25T09:13:14.8160405Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261116.202
+2026-11-25T09:13:14.8161201Z ##[endgroup]
+2026-11-25T09:13:14.8162155Z ##[group]GITHUB_TOKEN Permissions
+2026-11-25T09:13:14.8163957Z Contents: read
+2026-11-25T09:13:14.8164556Z Metadata: read
+2026-11-25T09:13:14.8165024Z Packages: read
+2026-11-25T09:13:14.8165763Z ##[endgroup]
+2026-11-25T09:13:14.8167425Z Secret source: Actions
+2026-11-25T09:13:14.8168258Z Cache mode: write
+2026-11-25T09:13:14.8168844Z Prepare workflow directory
+2026-11-25T09:13:14.8425196Z Prepare all required actions
+2026-11-25T09:13:14.8463681Z Getting action download info
+2026-11-25T09:13:15.1824966Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-25T09:13:15.3408304Z Complete job name: check
+2026-11-25T09:13:15.4154682Z ##[group]Run actions/checkout@v4
+2026-11-25T09:13:15.4155352Z with:
+2026-11-25T09:13:15.4155902Z   repository: lephamhuechi/xrwvm-fullstack_developer_capstone
+2026-11-25T09:13:15.4159195Z   token: ***
+2026-11-25T09:13:15.4159548Z   ssh-strict: true
+2026-11-25T09:13:15.4160041Z   ssh-user: git
+2026-11-25T09:13:15.4160406Z   persist-credentials: true
+2026-11-25T09:13:15.4160803Z   clean: true
+2026-11-25T09:13:15.4161168Z   sparse-checkout-cone-mode: true
+2026-11-25T09:13:15.4161580Z   fetch-depth: 1
+2026-11-25T09:13:15.4161923Z   fetch-tags: false
+2026-11-25T09:13:15.4162283Z   show-progress: true
+2026-11-25T09:13:15.4162640Z   lfs: false
+2026-11-25T09:13:15.4162975Z   submodules: false
+2026-11-25T09:13:15.4163347Z   set-safe-directory: true
+2026-11-25T09:13:15.4163753Z   allow-unsafe-pr-checkout: false
+2026-11-25T09:13:15.4164341Z ##[endgroup]
+2026-11-25T09:13:15.7804091Z Syncing repository: lephamhuechi/xrwvm-fullstack_developer_capstone
+2026-11-25T09:13:15.7805872Z ##[group]Getting Git version info
+2026-11-25T09:13:15.7806773Z Working directory is '/home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone'
+2026-11-25T09:13:15.7807972Z [command]/usr/bin/git version
+2026-11-25T09:13:15.7895573Z git version 2.56.1
+2026-11-25T09:13:15.7917376Z ##[endgroup]
+2026-11-25T09:13:15.7923984Z Temporarily overriding HOME='/home/runner/work/_temp/a9e01dca-4054-4224-87bf-2299d8000220' before making global git config changes
+2026-11-25T09:13:15.7926141Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-25T09:13:15.7930702Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+2026-11-25T09:13:15.8059762Z Deleting the contents of '/home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone'
+2026-11-25T09:13:15.8062023Z ##[group]Initializing the repository
+2026-11-25T09:13:15.8066717Z [command]/usr/bin/git init /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+2026-11-25T09:13:15.8371878Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-25T09:13:15.8374185Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-25T09:13:15.8375740Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-25T09:13:15.8377664Z hint: call:
+2026-11-25T09:13:15.8378750Z hint:
+2026-11-25T09:13:15.8380172Z hint: 	git config --global init.defaultBranch <name>
+2026-11-25T09:13:15.8381581Z hint:
+2026-11-25T09:13:15.8382913Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-25T09:13:15.8384436Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-25T09:13:15.8385694Z hint:
+2026-11-25T09:13:15.8386626Z hint: 	git branch -m <name>
+2026-11-25T09:13:15.8387749Z hint:
+2026-11-25T09:13:15.8388934Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-25T09:13:15.8394019Z Initialized empty Git repository in /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone/.git/
+2026-11-25T09:13:15.8404569Z [command]/usr/bin/git remote add origin https://github.com/lephamhuechi/xrwvm-fullstack_developer_capstone
+2026-11-25T09:13:15.8455717Z ##[endgroup]
+2026-11-25T09:13:15.8456750Z ##[group]Disabling automatic garbage collection
+2026-11-25T09:13:15.8458389Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-25T09:13:15.8487507Z ##[endgroup]
+2026-11-25T09:13:15.8488161Z ##[group]Setting up auth
+2026-11-25T09:13:15.8492761Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-25T09:13:15.8529770Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-25T09:13:15.8956742Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-25T09:13:15.8989476Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-25T09:13:15.9230495Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-25T09:13:15.9259537Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-25T09:13:15.9494421Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-25T09:13:15.9528894Z ##[endgroup]
+2026-11-25T09:13:15.9530250Z ##[group]Fetching the repository
+2026-11-25T09:13:15.9537550Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +48814a8d19ae9f4ae9d7f49f86c82e260f626d46:refs/remotes/origin/main
+2026-11-25T09:13:16.3914057Z From https://github.com/lephamhuechi/xrwvm-fullstack_developer_capstone
+2026-11-25T09:13:16.3915005Z  * [new ref]         48814a8d19ae9f4ae9d7f49f86c82e260f626d46 -> origin/main
+2026-11-25T09:13:16.3917228Z ##[endgroup]
+2026-11-25T09:13:16.3917974Z ##[group]Determining the checkout info
+2026-11-25T09:13:16.3919548Z ##[endgroup]
+2026-11-25T09:13:16.3925026Z [command]/usr/bin/git sparse-checkout disable
+2026-11-25T09:13:16.3971200Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-25T09:13:16.3997207Z ##[group]Checking out the ref
+2026-11-25T09:13:16.4000463Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-11-25T09:13:16.4190441Z Switched to a new branch 'main'
+2026-11-25T09:13:16.4194971Z branch 'main' set up to track 'origin/main'.
+2026-11-25T09:13:16.4200924Z ##[endgroup]
+2026-11-25T09:13:16.4239166Z [command]/usr/bin/git log -1 --format=%H
+2026-11-25T09:13:16.4259536Z 48814a8d19ae9f4ae9d7f49f86c82e260f626d46
+2026-11-25T09:13:16.4469104Z ##[group]Run ls -la
+2026-11-25T09:13:16.4469777Z ;1mls -la
+2026-11-25T09:13:16.4503516Z shell: /usr/bin/bash -e {0}
+2026-11-25T09:13:16.4504228Z ##[endgroup]
+2026-11-25T09:13:16.4602268Z total 44
+2026-11-25T09:13:16.4602808Z drwxr-xr-x 5 runner runner  4096 Nov 25 09:13 .
+2026-11-25T09:13:16.4603467Z drwxr-xr-x 3 runner runner  4096 Nov 25 09:13 ..
+2026-11-25T09:13:16.4604091Z drwxr-xr-x 7 runner runner  4096 Nov 25 09:13 .git
+2026-11-25T09:13:16.4604721Z drwxr-xr-x 3 runner runner  4096 Nov 25 09:13 .github
+2026-11-25T09:13:16.4605550Z -rw-r--r-- 1 runner runner  1799 Nov 25 09:13 .gitignore
+2026-11-25T09:13:16.4606565Z -rw-r--r-- 1 runner runner 11358 Nov 25 09:13 LICENSE
+2026-11-25T09:13:16.4607581Z -rw-r--r-- 1 runner runner    57 Nov 25 09:13 README.md
+2026-11-25T09:13:16.4608771Z -rw-r--r-- 1 runner runner   372 Nov 25 09:13 django_server
+2026-11-25T09:13:16.4609890Z drwxr-xr-x 6 runner runner  4096 Nov 25 09:13 server
+2026-11-25T09:13:16.4650816Z ##[group]Run echo "GitHub Actions workflow completed successfully."
+2026-11-25T09:13:16.4651649Z ;1mecho "GitHub Actions workflow completed successfully."
+2026-11-25T09:13:16.4678095Z shell: /usr/bin/bash -e {0}
+2026-11-25T09:13:16.4678545Z ##[endgroup]
+2026-11-25T09:13:16.4724432Z GitHub Actions workflow completed successfully.
+2026-11-25T09:13:16.4852097Z Post job cleanup.
+2026-11-25T09:13:16.5588293Z [command]/usr/bin/git version
+2026-11-25T09:13:16.5624464Z git version 2.56.1
+2026-11-25T09:13:16.5656794Z Temporarily overriding HOME='/home/runner/work/_temp/faf5943f-945f-4095-8d7f-2070f78a1775' before making global git config changes
+2026-11-25T09:13:16.5658169Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-25T09:13:16.5661979Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+2026-11-25T09:13:16.5779965Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-25T09:13:16.5784228Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-25T09:13:16.6008076Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-25T09:13:16.6030421Z http.https://github.com/.extraheader
+2026-11-25T09:13:16.6038842Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-25T09:13:16.6077785Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-25T09:13:16.6347718Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-25T09:13:16.6377936Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-25T09:13:16.6740913Z Cleaning up orphan processes
+2026-11-25T09:13:16.7110177Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
